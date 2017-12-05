@@ -16,4 +16,4 @@ class Solution:
         return 0
 #debug
 s = Solution()
-s.Find([[1,2,3],[3,4,5],[4,5,6]],6)
+print(s.Find([[1,2,3],[3,4,5],[4,5,6]],6))
