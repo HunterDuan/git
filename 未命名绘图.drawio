@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T07:36:31.243Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="gWWfCZjmd5bNVGgOaQJl" version="22.1.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-22T09:52:33.261Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="z3v3Ix5n_LgwB3Fep57X" version="22.1.3" type="github" pages="10">
   <diagram id="sNwkTpttNef9h_GZKUWY" name="第 6 页">
     <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2048,55 +2048,136 @@
           <mxGeometry x="50" y="1280" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-24" value="vecModuleDisable数组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1466" width="150" height="30" as="geometry" />
+          <mxGeometry x="50" y="1746" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-B6pzOcC5MVmt4nvyxiF-25" target="9TrREfomnZUqCfJZiA_0-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-25" value="autoSetSelinuxPolicy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1515" width="150" height="30" as="geometry" />
+          <mxGeometry x="50" y="1910" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-B6pzOcC5MVmt4nvyxiF-26" target="9TrREfomnZUqCfJZiA_0-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-26" value="checkKernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="1190" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-B6pzOcC5MVmt4nvyxiF-27" target="9TrREfomnZUqCfJZiA_0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-27" value="checkPackages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="1230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-B6pzOcC5MVmt4nvyxiF-29" target="9TrREfomnZUqCfJZiA_0-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-29" value="checkFiles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="1280" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-B6pzOcC5MVmt4nvyxiF-30" value="check_system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1340" width="150" height="30" as="geometry" />
+        <mxCell id="9TrREfomnZUqCfJZiA_0-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-B6pzOcC5MVmt4nvyxiF-30" target="9TrREfomnZUqCfJZiA_0-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-B6pzOcC5MVmt4nvyxiF-32" value="check_system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1390" width="150" height="30" as="geometry" />
+        <mxCell id="-B6pzOcC5MVmt4nvyxiF-30" value="check_system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-B6pzOcC5MVmt4nvyxiF-32" value="模块do_enable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1670" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-33" value="check_system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1460" width="150" height="30" as="geometry" />
+          <mxGeometry x="245" y="1740" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-B6pzOcC5MVmt4nvyxiF-34" value="do_disable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1510" width="150" height="30" as="geometry" />
+        <mxCell id="-B6pzOcC5MVmt4nvyxiF-34" value="模块do_disable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1790" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-35" value="saveToGrubCfg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1570" width="150" height="30" as="geometry" />
+          <mxGeometry x="50" y="2040" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-38" value="setSecurityLevelToConfFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1620" width="150" height="30" as="geometry" />
+          <mxGeometry x="50" y="2090" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-40" value="sqlite3 \&quot;/etc/kysec/db/whlist.db\&quot; \&quot;update relabel_status set relabel=0;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1670" width="270" height="30" as="geometry" />
+          <mxGeometry x="50" y="2140" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-41" value="cmd(echo 0 &amp;gt; /etc/kysec/tmp/.status)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1710" width="270" height="30" as="geometry" />
+          <mxGeometry x="50" y="2180" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-47" value="bSetKysecDisable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1710" width="120" height="30" as="geometry" />
+          <mxGeometry x="370" y="2180" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-48" value="KYSEC_MODULE_STATUS_DISABLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1670" width="220" height="30" as="geometry" />
+          <mxGeometry x="340" y="2140" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-50" value="m_bAutoResetPasswd = true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1040" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-B6pzOcC5MVmt4nvyxiF-51" value="m_bAutoResetPasswd = false" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1090" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-1" target="9TrREfomnZUqCfJZiA_0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-1" target="9TrREfomnZUqCfJZiA_0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-1" value="&lt;div&gt;getModuleConfigStatus&lt;/div&gt;&lt;div&gt;(KYSEC_MODULE_3ADM)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1910" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-2" value="&lt;div&gt;SELINUX_POLICY&lt;/div&gt;&lt;div&gt;_TARGETED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-3" value="&lt;div&gt;SELINUX_POLICY&lt;/div&gt;&lt;div&gt;_UKMCS&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-6" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#FF3333&quot;&gt;KYSEC_MODULE_&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#FF3333&quot;&gt;STATUS_DISABLE&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1890" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-9" value="&lt;div&gt;SELINUX_SYMBOL_PATH文件中的字段是否匹配&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-12" target="9TrREfomnZUqCfJZiA_0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-12" value="&lt;div&gt;checkSoftwarePackage&lt;/div&gt;&lt;div&gt;InstallStatus&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-13" value="&lt;div&gt;dpkg -l&lt;/div&gt;&lt;div&gt;rpm -qa | grep&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-16" value="access(m_vecFiles...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-18" target="9TrREfomnZUqCfJZiA_0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-18" target="9TrREfomnZUqCfJZiA_0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-18" target="9TrREfomnZUqCfJZiA_0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-18" target="9TrREfomnZUqCfJZiA_0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TrREfomnZUqCfJZiA_0-18" target="9TrREfomnZUqCfJZiA_0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-18" value="check_system_3adm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-20" value="POLKIT_DATA_FILE_PATH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-22" value="check_group(&quot;secadm&quot;, 600)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1340" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-24" value="check_group(&quot;auditadm&quot;, 700)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1380" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-25" value="check_user(&quot;secadm&quot;, &quot;600&quot;, &quot;/home/secadm&quot;, &quot;600&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1430" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TrREfomnZUqCfJZiA_0-27" value="check_user(&quot;auditadm&quot;, &quot;700&quot;, &quot;/home/auditadm&quot;, &quot;700&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1480" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
