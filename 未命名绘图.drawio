@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T02:07:35.987Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="gcMiXwr0IoWkDURZ6BkB" version="22.1.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-11-28T06:26:30.455Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="A3uVbEoOp3Q_qj_nCkqf" version="22.1.3" type="github" pages="11">
   <diagram id="sNwkTpttNef9h_GZKUWY" name="第 6 页">
     <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2341,6 +2341,155 @@
         </mxCell>
         <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-15" value="&lt;div&gt;kysec_exectl_check_protect_file&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="194" y="594" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-30" value="&lt;code&gt;relabel_flag&lt;span class=&quot;o&quot;&gt;&lt;/span&gt;&lt;/code&gt;=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="878" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-31" value="&lt;code&gt;relabel_flag&lt;span class=&quot;o&quot;&gt;&lt;/span&gt;&lt;/code&gt;=2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-32" target="Yy7CBcuo1d-ER2ZT_5jG-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-32" value="&lt;div&gt;&lt;code&gt;1. /etc/kysec/tmp/.status存在且值为0&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;2.&lt;/code&gt;&lt;code&gt;&lt;code&gt;kysec_status不等于0&lt;/code&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="522" y="878" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-33" target="Yy7CBcuo1d-ER2ZT_5jG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-33" value="&lt;div&gt;&lt;code&gt;1. /proc/cmdline中exectl为1&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;2. 或文件&lt;/code&gt;&lt;code&gt;&lt;code&gt;/.kysec2.0_relabel存在&lt;/code&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="522" y="940" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-34" value="&lt;div&gt;&lt;code&gt;chroot &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;rootmnt&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;/code&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;&lt;code&gt;/usr/bin/kysec_exectl_demo&lt;/code&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="1103.5" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-35" value="&lt;code&gt;/sys/kernel/security/&lt;/code&gt;&lt;code&gt;kysec/status&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="830" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-36" target="Yy7CBcuo1d-ER2ZT_5jG-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-36" value="&lt;div&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;kysec_status&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;(default 0)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="830" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-38" target="Yy7CBcuo1d-ER2ZT_5jG-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-38" target="Yy7CBcuo1d-ER2ZT_5jG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-38" value="&lt;code&gt;get_relabel_flag&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-40" value="echo statuts &amp;gt; xx/.status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="995" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-41" target="Yy7CBcuo1d-ER2ZT_5jG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-41" value="&lt;code&gt;/etc/kysec/tmp/.status&lt;/code&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142" y="972.5" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-43" value="&lt;code&gt;存在&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="274" y="985" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-44" target="Yy7CBcuo1d-ER2ZT_5jG-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-44" target="Yy7CBcuo1d-ER2ZT_5jG-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-44" target="Yy7CBcuo1d-ER2ZT_5jG-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-44" value="&lt;code&gt;relabel_flag&lt;span class=&quot;s2&quot;&gt;&lt;/span&gt;&lt;/code&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141" y="1082.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-46" target="Yy7CBcuo1d-ER2ZT_5jG-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-46" target="Yy7CBcuo1d-ER2ZT_5jG-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="1075" />
+              <mxPoint x="542" y="1119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-46" target="Yy7CBcuo1d-ER2ZT_5jG-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="1075" />
+              <mxPoint x="542" y="1162" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-46" target="Yy7CBcuo1d-ER2ZT_5jG-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="1075" />
+              <mxPoint x="542" y="1205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-46" value="&lt;div&gt;值为0或者2&lt;/div&gt;do_remount all" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="1060" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-47" value="&lt;div&gt;值为1&lt;/div&gt;删除&lt;code&gt;文件&lt;/code&gt;&lt;code&gt;&lt;code&gt;/.kysec2.0_relabel&lt;/code&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="1132.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-48" value="echo statuts &amp;gt; xx/.status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="1191.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-52" value="&lt;code&gt;存在&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="256" y="1087.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-53" value="默认执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="262" y="1167.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-54" value="&lt;code&gt;[ 0 &lt;span class=&quot;nt&quot;&gt;-ne&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$kysec_status&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; set_kysec_status 4&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="1060" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-55" value="&lt;code&gt;删除文件&lt;/code&gt;&lt;code&gt;&lt;code&gt;/.kysec2.0_relabel&lt;/code&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="1146.5" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-58" value="&lt;code&gt;[ 0 &lt;span class=&quot;nt&quot;&gt;-ne&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$kysec_status&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; set_kysec_status $oldvalue&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="1190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-69" target="Yy7CBcuo1d-ER2ZT_5jG-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="970" />
+              <mxPoint x="110" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-69" target="Yy7CBcuo1d-ER2ZT_5jG-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="970" />
+              <mxPoint x="110" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-69" target="Yy7CBcuo1d-ER2ZT_5jG-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="970" />
+              <mxPoint x="110" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7CBcuo1d-ER2ZT_5jG-69" target="Yy7CBcuo1d-ER2ZT_5jG-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="970" />
+              <mxPoint x="110" y="1113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy7CBcuo1d-ER2ZT_5jG-69" value="relabel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="955" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
