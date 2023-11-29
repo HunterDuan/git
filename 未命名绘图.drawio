@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T07:15:09.464Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="-Uu-8MpcIH3Ft7gEdjab" version="22.1.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-11-29T09:27:20.053Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="3qNa1uHBVxzplUlpZtV1" version="22.1.3" type="github" pages="13">
   <diagram id="sNwkTpttNef9h_GZKUWY" name="第 6 页">
     <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3005,6 +3005,65 @@
         </mxCell>
         <mxCell id="Y3zwohjs6V8lqSNWBiWF-40" value="&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;&lt;code&gt;postinst脚本：&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;&lt;code&gt;1.touch /.kysec2.0_relabel&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;&lt;code&gt;2.&lt;/code&gt;&lt;/font&gt;&lt;font color=&quot;#FF3333&quot;&gt;&lt;code&gt;&lt;code&gt; update-initramfs -u&lt;/code&gt;&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="547" y="215" width="190" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aqljb1wHbR8Qe4INBKJl" name="label_ui">
+    <mxGraphModel dx="1434" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IG9XDhMyvk3rgouIn0g3-1" target="IG9XDhMyvk3rgouIn0g3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-1" value="&lt;div&gt;&lt;code&gt;MDateProxy&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_dataList&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-2" value="&lt;div&gt;CReactor&lt;/div&gt;&lt;div&gt;get_allAppInfo(vec)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-4" value="&lt;font color=&quot;#FF3333&quot;&gt;QVector&amp;lt;SAppInfo&amp;gt; vect&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IG9XDhMyvk3rgouIn0g3-6" target="IG9XDhMyvk3rgouIn0g3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IG9XDhMyvk3rgouIn0g3-6" target="IG9XDhMyvk3rgouIn0g3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-6" value="refresh_dateList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IG9XDhMyvk3rgouIn0g3-8" target="IG9XDhMyvk3rgouIn0g3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-8" value="&lt;div&gt;&lt;code&gt;comBox&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;setCurrentIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="205" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IG9XDhMyvk3rgouIn0g3-9" target="IG9XDhMyvk3rgouIn0g3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-9" value="&lt;div&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iApp_run&lt;/span&gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;tag&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iApp_net&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;tag&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sDevCon&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;tag&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sOs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;osBase&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sOs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;osCore&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sOs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;osStarting&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;tag&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sOs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;osLog&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;&lt;/span&gt;&lt;/code&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sOs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;osConfig&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;tag&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPermiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oUser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usDesktop&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IG9XDhMyvk3rgouIn0g3-13" value="&lt;code&gt;&lt;span class=&quot;n&quot;&gt;set_appPermissions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&lt;/span&gt;&lt;/code&gt;(tag)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luRq2vkT6rkGlReQtu_--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luRq2vkT6rkGlReQtu_--1" target="IG9XDhMyvk3rgouIn0g3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luRq2vkT6rkGlReQtu_--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luRq2vkT6rkGlReQtu_--1" target="luRq2vkT6rkGlReQtu_--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luRq2vkT6rkGlReQtu_--1" value="&lt;font color=&quot;#FF3333&quot;&gt;MTabView&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luRq2vkT6rkGlReQtu_--4" value="search_dataList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luRq2vkT6rkGlReQtu_--6" value="&lt;font color=&quot;#FF3333&quot;&gt;&lt;span class=&quot;file-title-name gl-word-break-all&quot;&gt;ManagerWidget&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="165" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
