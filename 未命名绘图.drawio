@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T08:54:59.612Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="6_vAfR2Ptpq4g8kE_uIj" version="22.1.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-11-30T09:44:11.665Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="AVLK7vcFa4UmY7JNRYLv" version="22.1.3" type="github" pages="13">
   <diagram id="sNwkTpttNef9h_GZKUWY" name="第 6 页">
     <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2907,6 +2907,9 @@
         </mxCell>
         <mxCell id="Wz8pP7mnnTHIJm1xT1hZ-23" value="&lt;div&gt;/home、/var/log/、&lt;code&gt;/etc、&lt;/code&gt;&lt;code&gt;/boot、&lt;/code&gt;&lt;code&gt;/usr&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;/lib/modules&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#FF3333&quot;&gt;目录为初始标记&lt;/font&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="282" y="1730" width="244" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xczj7j5DH_lxMrOMyKph-3" value="&lt;font color=&quot;#FF3333&quot;&gt;kysec-common&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="1347" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
