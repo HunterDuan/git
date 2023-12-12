@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T09:44:11.665Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="AVLK7vcFa4UmY7JNRYLv" version="22.1.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-12-12T09:50:30.984Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" etag="wyViNiaPhonghNDGsEhg" version="22.1.3" type="github" pages="14">
   <diagram id="sNwkTpttNef9h_GZKUWY" name="第 6 页">
     <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3156,6 +3156,72 @@
         </mxCell>
         <mxCell id="8K5cHrsf1herHEPB3rlW-8" value="&lt;pre class=&quot;code highlight&quot; lang=&quot;cpp&quot;&gt;&lt;code&gt;m_pSql &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CSqlLiteOps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;span class=&quot;line&quot; id=&quot;LC11&quot; lang=&quot;cpp&quot;&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; id=&quot;LC12&quot; lang=&quot;cpp&quot;&gt;&lt;span class=&quot;n&quot;&gt;&lt;br&gt;m_pDesk&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CDesktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; id=&quot;LC13&quot; lang=&quot;cpp&quot;&gt;&lt;span class=&quot;n&quot;&gt;&lt;br&gt;m_pKysec&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CKysecControl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="461" y="370" width="298" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xmnj5Jiqae-JpZ_zrSMh" name="stratey-kysec">
+    <mxGraphModel dx="1434" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7o5nHTqU61E7H9k34Ete-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7o5nHTqU61E7H9k34Ete-9" target="7o5nHTqU61E7H9k34Ete-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="140" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-1" value="策略配置库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-3" value="&lt;div&gt;策略添加/删除/&lt;/div&gt;&lt;div&gt;更新/查询&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-4" value="&lt;div&gt;id添加/删除/&lt;/div&gt;&lt;div&gt;更新/查询&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-5" value="&lt;div&gt;打标签（全盘/文件路径）添加/删除/查询&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-6" value="id管理接口(&lt;b&gt;命令行&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-7" value="用户管理接口(&lt;b&gt;命令行&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-8" value="策略管理接口(&lt;b&gt;命令行&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="20" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-11" value="策略管理服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-14" value="标记恢复库(&lt;b&gt;动态库&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7o5nHTqU61E7H9k34Ete-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="80" as="sourcePoint" />
+            <mxPoint x="320" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7o5nHTqU61E7H9k34Ete-16" target="7o5nHTqU61E7H9k34Ete-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7o5nHTqU61E7H9k34Ete-16" value="标记恢复工具(&lt;b&gt;命令行&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMz4CBID5d1r-4ypHVbZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZMz4CBID5d1r-4ypHVbZ-1" target="ZMz4CBID5d1r-4ypHVbZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMz4CBID5d1r-4ypHVbZ-1" value="&lt;div&gt;add_stratey(type, rule)&lt;/div&gt;&lt;div&gt;del_stratey(type, rule)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="60" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMz4CBID5d1r-4ypHVbZ-2" value="type：TAG、ID、RULE、USERMANAGER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="60" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
